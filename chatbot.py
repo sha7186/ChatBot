@@ -8,7 +8,7 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('C:/Users/user/Desktop/Project-3/venv/intents.json').read())
+intents = json.loads(open('C:/Users/user/Desktop/Project-3/intents.json').read())
 
 # intents = json.loads(open('C:\Users\user\Desktop\Project-3\venv\').read())
 
